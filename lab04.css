@@ -1,0 +1,74 @@
+/*
+
+filename: lab04.html
+
+author: Naweed Ahmed
+
+created: sept 2 
+
+last modified: sept 4
+
+description: CSS file for lab04
+
+*/
+h1 { 
+    color: purple; 
+    font-size: 2em; 
+    font-weight: bold; 
+}
+
+
+ * { 
+    font-family: calibri, sans-serif; 
+    color: #2F4F4F;
+    }  
+
+    
+ aside, footer { font-style: italic; }   
+ 
+
+ h1, h2, h3 { font-family: Arial, sans-serif; }
+
+
+table, td, th, tr {border: 1px solid black; }
+
+
+#images { text-align: center;
+         color: #008b8b;
+        }  
+
+
+#head3 { color: #ff0000 ; }
+
+
+.special {
+          color: darkorange;
+          font-weight:bold;
+         }      
+
+
+.rightside { text-align: right ;}
+
+
+nav a {
+          text-decoration: none;
+          padding:0.2em 0.6em;
+          border: 4px solid #ccc;
+         }  
+
+
+nav a:hover {
+          background-color: #add8e6 ;
+          border: 4px solid #ccc ;
+         }
+
+
+ul { list-style-type: square; }        
+
+
+aside:hover {
+    display: none;
+}
+
+
+.changecolor { color: #008b8b; }
